@@ -393,9 +393,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabEgg: {fileID: 1062114460652252, guid: c24ecbff2a923f440b9e19d55d2c3118, type: 2}
-  speed: 1
-  limitMovement: 4
-  chanceDirectionChange: 0.01
+  speed: 3
+  limitMovement: 6
+  chanceDirectionChange: 0.001
   secondsBetweenEggDrops: 1
 --- !u!135 &135274964545625782
 SphereCollider:

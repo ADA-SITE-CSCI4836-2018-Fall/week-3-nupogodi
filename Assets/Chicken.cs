@@ -10,7 +10,7 @@ public class Chicken : MonoBehaviour {
     public float speed = 3f;
 
     // Right or left limit of the movement
-    public float limitMovement = 4f;
+    public float limitMovement = 5f;
 
     // Chance of random change of direction
     public float chanceDirectionChange = 0.01f;

@@ -16,6 +16,10 @@ public class Egg : MonoBehaviour {
 		if (transform.position.y < bottomLimit)
         {
             Destroy(this.gameObject);
+
+            // React to the missed egg - call the public routine from main script
+            Nupogodi script = Camera.main.GetComponent<Nupogodi>();
+            script.EggDestroyed();
         }
-	}
+    }
 }
